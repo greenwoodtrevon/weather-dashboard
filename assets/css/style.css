@@ -1,0 +1,74 @@
+main {
+  margin: 2px;
+}
+
+h1, h2 {
+  font-weight: bolder;
+}
+
+header {
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+  color: white;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.weather-display {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+  margin: 5px;
+  height: 900px;
+  width: 100%;
+}
+
+.search {
+  border: solid;
+  border-color: black;
+  height: 100%;
+}
+
+.search-btn {
+  border-radius: 5px;
+  background-color: #D4d4d4;
+}
+
+.search-history {
+  border-style: solid;
+  border-color: black;
+}
+
+.search-items {
+  /*border: solid;
+  border-color:black;*/
+}
+.search-items li button {
+  border-radius: 5px;
+  background-color: #D4d4d4;
+  width: 100%;
+  margin: 5px 0px 5px 0px;
+  align-items: center;
+  
+}
+
+.forecast {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+}
+.search-items {
+  margin: 5px;
+  list-style: none;
+}
+
+.data {
+  border: solid;
+  border-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
