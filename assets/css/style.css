@@ -17,24 +17,26 @@ header {
   display: flex;
   flex-direction: row;
 }
-.weather-display {
-  border-radius: 5px;
-  border-style: solid;
-  border-color: black;
-  margin: 5px;
-  height: 900px;
-  width: 100%;
-}
 
+/* Search Div Styling */
 .search {
-  border: solid;
-  border-color: black;
+  /* border: solid;
+  border-color: black; */
   height: 100%;
 }
 
-.search-btn {
+#search-bar {
+  width: 100%;
+  height: 30px;
+}
+#searchBtn {
+  color: whitesmoke;
   border-radius: 5px;
-  background-color: #D4d4d4;
+  width: 100%;
+  font-size: 20px;
+  height: 50px;
+  background-color: #0d4b74;
+  margin: 3px 0px;
 }
 
 .search-history {
@@ -46,29 +48,73 @@ header {
   /*border: solid;
   border-color:black;*/
 }
-.search-items li button {
+.search-items button {
   border-radius: 5px;
   background-color: #D4d4d4;
   width: 100%;
+  font-size: 20px;
+  height: 50px;
   margin: 5px 0px 5px 0px;
   align-items: center;
   
 }
 
-.forecast {
-  border-radius: 5px;
-  border-style: solid;
-  border-color: black;
-}
 .search-items {
   margin: 5px;
   list-style: none;
 }
 
+/* Current Weather Styling */
+
 .data {
-  border: solid;
-  border-color: black;
+  /* border: solid;
+  border-color: black; */
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: 400px;
+}
+
+.weather-display {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black; 
+  height: 900px;
+  width: 100%;
+}
+.weather-display h1 {
+  font-size: 45px;
+  margin-left: 10px;
+}
+.weather-display div {
+  list-style: none;
+  font-size: 30px;
+  float: left;
+  margin-left: 10px;
+}
+.weather-display div p {
+  margin: 20px 0px;
+}
+
+
+
+/* Forecast Styling Starts */
+.forecast {
+  display: flex;
+  flex-direction: column;
+}
+.forecast-week {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.forecast-day {
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+  color: white;
+  width: 180px;
+  height: 230px;
+}
+.forecast-info {
+  margin-left: 5px;
+  font-size: 20px;
 }
