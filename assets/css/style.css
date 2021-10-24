@@ -80,6 +80,7 @@ header {
   border-color: black; 
   height: 900px;
   width: 100%;
+  margin-bottom: 20px;
 }
 .weather-display h1 {
   font-size: 45px;
@@ -90,6 +91,7 @@ header {
   font-size: 30px;
   float: left;
   margin-left: 10px;
+  border-radius: 5px;
 }
 .weather-display div p {
   margin: 20px 0px;
@@ -109,10 +111,12 @@ header {
 }
 .forecast-day {
   background-color: #7f5a83;
+  padding: 3px;
   background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
   color: white;
   width: 180px;
-  height: 230px;
+  height: 180px;
+  border-radius: 5px;
 }
 .forecast-info {
   margin-left: 5px;
